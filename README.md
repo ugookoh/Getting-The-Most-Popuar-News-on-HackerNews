@@ -1,4 +1,4 @@
-# Getting-The-Most-Popuar-News-on-HackerNews
+# Getting-The-Most-Popuar-News-on-YC-HackerNews
 This is a simple webscraping bot to get all the latest news from [YCombinator Hackernews](https://news.ycombinator.com/) and gives you the most popular one
 
 This simply returns the infomation in the format:
