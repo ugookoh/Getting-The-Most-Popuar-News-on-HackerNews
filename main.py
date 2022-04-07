@@ -15,7 +15,6 @@ scores_list = []
 for title in titles:
     item_title = title.getText()
     item_link = title.get('href')
-    print('\n\n')
     titles_list.append(item_title)
     links_list.append(item_link)
 
@@ -29,7 +28,9 @@ highest_news_index = scores_list.index(highest_news_score)
 highest_news_title = titles_list[highest_news_index]
 highest_news_link = links_list[highest_news_index]
 
+print('\n\n')
 print('The current most popular news on YCombinator Hackernews')
-print(f'Title: {highest_news_title}')
+print(f'Title : {highest_news_title}')
 print(f'Link : {highest_news_link}')
 print(f'Upvotes : {highest_news_score}')
+print('\n\n')
